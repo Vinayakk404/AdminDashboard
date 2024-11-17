@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 🚀 Admin Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Tech Stack](#tech-stack)
+4. [Installation & Setup](#installation--setup)
+5. [Screenshots](#screenshots)
 
-## Available Scripts
+## 📌 Overview
+A modern admin dashboard application built with React.js that enables product management and analytics visualization. Perfect for businesses looking to manage their inventory and track performance metrics.
 
-In the project directory, you can run:
+## 🎯 Features
 
-### `npm start`
+### 💼 Product Management
+- ➕ Create new products with details
+- 📝 Edit existing products
+- 🗑️ Delete products
+- 📋 View comprehensive product listings
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 📊 Analytics & Charts
+- 📈 Real-time performance metrics
+- 🔄 Product comparison charts
+- 📉 Sales analytics visualization
+- 📱 Responsive design across all devices
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### Frontend
+ ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+ ![Recharts](https://img.shields.io/badge/Recharts.js-3181F7?style=for-the-badge&logo=react&logoColor=white)
+ ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Backend
+![JSON Server](https://img.shields.io/badge/JSON_Server-003B57?style=for-the-badge&logo=json&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📸 Screenshots
+### Dashboards Page
+<img width="1054" alt="DashboardPage" src="https://github.com/user-attachments/assets/0684872f-c778-4da4-b2fd-aa57054614cf">
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### SideBar
+<img width="1051" alt="Sidebar" src="https://github.com/user-attachments/assets/67d6d940-af5a-46c0-bcf4-d8fd98f92dad">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Products
+<img width="1046" alt="Search Page" src="https://github.com/user-attachments/assets/703e8ce3-fedb-4425-b7b2-5ceda9199784">
 
-### `npm run eject`
+### Create Product
+<img width="1039" alt="Create Product" src="https://github.com/user-attachments/assets/9f54abec-e44c-4c2e-8d94-3539ecb342c8">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Edit Product 
+<img width="524" alt="Edit" src="https://github.com/user-attachments/assets/fd83f61f-e3d1-4113-b2a0-9a8421b7516d">
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Chart Comparision
+<img width="653" alt="Charts" src="https://github.com/user-attachments/assets/bd89c50c-eca0-4050-a08f-12480dae3c28">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Json Data 
+<img width="756" alt="Json Server" src="https://github.com/user-attachments/assets/6f1b90bd-3c72-4393-a44c-46ba9e00059f">
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## ⚙️ Installation & Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Clone Repository**
+   ```
+   git clone https://github.com/yourusername/admin-dashboard.git
+   ``` 
+2. **Installing Dependencies**
+   ```
+   npm i
+   ``` 
+3. **Starting the Application**
+   ```
+   npm start
+   ```  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Run JSON Server**
+   ```
+   npx json-server --watch db.json --port 5000
+   ```  
+- Your app will be running at http://localhost:3000
+- API will be available at http://localhost:5000
+# 📱 Usage
 
-### Code Splitting
+## 1. Dashboard Navigation
+- Access the main dashboard from the sidebar.
+- View analytics in the main panel.
+- Use quick actions in the top bar.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 2. Product Management
 
-### Analyzing the Bundle Size
+### ➕ Add Product:
+1. Click the "Add Product" button.
+2. Fill in product details.
+3. Save changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ✏️ Edit Product:
+1. Click the edit icon on the product row.
+2. Modify the information.
+3. Save changes.
 
-### Making a Progressive Web App
+### 🗑️ Delete Product:
+1. Click the delete icon.
+2. Confirm the deletion.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 3. Analytics
+- Compare products using interactive charts.
+- Filter data by date range.
+- Export reports in multiple formats.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
