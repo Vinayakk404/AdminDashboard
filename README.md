@@ -36,10 +36,8 @@ A modern admin dashboard application built with React.js that enables product ma
 ![JSON Server](https://img.shields.io/badge/JSON_Server-003B57?style=for-the-badge&logo=json&logoColor=white)
 
 ## 📸 Screenshots
-### Dashboards Page
-<img width="1054" alt="DashboardPage" src="https://github.com/user-attachments/assets/0684872f-c778-4da4-b2fd-aa57054614cf">
 
-### SideBar
+### Dashboard 
 <img width="1051" alt="Sidebar" src="https://github.com/user-attachments/assets/67d6d940-af5a-46c0-bcf4-d8fd98f92dad">
 
 ### Products
